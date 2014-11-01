@@ -1,55 +1,56 @@
-1                         FAIRBANKS MEMORIAL HOSPITAL    AK
-2                           SPRINGHILL MEDICAL CENTER    AL
-3           BAPTIST HEALTH MEDICAL CENTER-LITTLE ROCK    AR
-4                               BANNER HEART HOSPITAL    AZ
-5                                    CHINESE HOSPITAL    CA
-6                              POUDRE VALLEY HOSPITAL    CO
-7                           MASONIC HOME AND HOSPITAL    CT
-8                                                <NA>    DC
-9                                                <NA>    DE
-10                               DOCTORS HOSPITAL INC    FL
-11                             EMANUEL MEDICAL CENTER    GA
-12                                               <NA>    GU
-13                           WAHIAWA GENERAL HOSPITAL    HI
-14                                  ST LUKES HOSPITAL    IA
-15                            PORTNEUF MEDICAL CENTER    ID
-16                    ALEXIAN BROTHERS MEDICAL CENTER    IL
-17                      HOWARD REGIONAL HEALTH SYSTEM    IN
-18                            DECATUR COUNTY HOSPITAL    KS
-19                             ST ELIZABETH FT THOMAS    KY
-20                          ST FRANCIS MEDICAL CENTER    LA
-21               BETH ISRAEL DEACONESS MEDICAL CENTER    MA
-22                         MARYLAND GENERAL  HOSPITAL    MD
-23                                CARY MEDICAL CENTER    ME
-24                HENRY FORD WEST BLOOMFIELD HOSPITAL    MI
-25                                  OWATONNA HOSPITAL    MN
-26            ST LOUIS-JOHN COCHRAN VA MEDICAL CENTER    MO
-27                            CALHOUN HEALTH SERVICES    MS
-28                               SIDNEY HEALTH CENTER    MT
-29                             WAKEMED, CARY HOSPITAL    NC
-30                     SAKAKAWEA MEDICAL CENTER - CAH    ND
-31                         BOX BUTTE GENERAL HOSPITAL    NE
-32                       PORTSMOUTH REGIONAL HOSPITAL    NH
-33                 OUR LADY OF LOURDES MEDICAL CENTER    NJ
-34   HOLY CROSS HOSPITAL A DIV OF TAOS HEALTH SYSTEMS    NM
-35                  SUMMERLIN HOSPITAL MEDICAL CENTER    NV
-36                               MOUNT SINAI HOSPITAL    NY
-37                         TRUMBULL MEMORIAL HOSPITAL    OH
-38                       SAINT FRANCIS HOSPITAL SOUTH    OK
-39               LEGACY GOOD SAMARITAN MEDICAL CENTER    OR
-40                      HAHNEMANN UNIVERSITY HOSPITAL    PA
-41                     HOSPITAL HERMANOS MELENDEZ INC    PR
-42                                   NEWPORT HOSPITAL    RI
-43                          CAROLINAS HOSPITAL SYSTEM    SC
-44 AVERA MCKENNAN HOSPITAL & UNIVERSITY HEALTH CENTER    SD
-45                                  CROCKETT HOSPITAL    TN
-46                     VALLEY REGIONAL MEDICAL CENTER    TX
-47                        UINTAH BASIN MEDICAL CENTER    UT
-48                  CARILION GILES COMMUNITY HOSPITAL    VA
-49                                               <NA>    VI
-50                     CENTRAL VERMONT MEDICAL CENTER    VT
-51                 KITTITAS VALLEY COMMUNITY HOSPITAL    WA
-52          WHEATON FRANCISCAN HEALTHCARE- ST FRANCIS    WI
-53                      MARTINSBURG VA MEDICAL CENTER    WV
-54                  CAMPBELL COUNTY MEMORIAL HOSPITAL    WY
+identical(rankhospital("AK", "heart failure", 10), "FAIRBANKS MEMORIAL HOSPITAL")
+identical(rankhospital("AL", "heart failure", 10), "SPRINGHILL MEDICAL CENTER ")
+identical(rankhospital("AR", "heart failure", 10), "BAPTIST HEALTH MEDICAL CENTER-LITTLE ROCK ")
+identical(rankhospital("AZ", "heart failure", 10), "BANNER HEART HOSPITAL ")
+identical(rankhospital("CA", "heart failure", 10), "CHINESE HOSPITAL ")
+identical(rankhospital("CO", "heart failure", 10), "POUDRE VALLEY HOSPITAL ")
+identical(rankhospital("CT", "heart failure", 10), "MASONIC HOME AND HOSPITAL ")
+is.na(rankhospital("DC", "heart failure", 10))
+is.na(rankhospital("DE", "heart failure", 10))
+identical(rankhospital("FL", "heart failure", 10), "DOCTORS HOSPITAL INC ")
+identical(rankhospital("GA", "heart failure", 10), "EMANUEL MEDICAL CENTER ")
+is.na(rankhospital("GU", "heart failure", 10))
+identical(rankhospital("HI", "heart failure", 10), "WAHIAWA GENERAL HOSPITAL ")
+identical(rankhospital("IA", "heart failure", 10), "ST LUKES HOSPITAL ")
+identical(rankhospital("ID", "heart failure", 10), "PORTNEUF MEDICAL CENTER ")
+identical(rankhospital("IL", "heart failure", 10), "ALEXIAN BROTHERS MEDICAL CENTER ")
+identical(rankhospital("IN", "heart failure", 10), "HOWARD REGIONAL HEALTH SYSTEM ")
+identical(rankhospital("KS", "heart failure", 10), "DECATUR COUNTY HOSPITAL ")
+identical(rankhospital("KY", "heart failure", 10), "ST ELIZABETH FT THOMAS ")
+identical(rankhospital("LA", "heart failure", 10), "ST FRANCIS MEDICAL CENTER ")
+identical(rankhospital("MA", "heart failure", 10), "BETH ISRAEL DEACONESS MEDICAL CENTER ")
+identical(rankhospital("MD", "heart failure", 10), "MARYLAND GENERAL HOSPITAL ")
+identical(rankhospital("ME", "heart failure", 10), "CARY MEDICAL CENTER ")
+identical(rankhospital("MI", "heart failure", 10), "HENRY FORD WEST BLOOMFIELD HOSPITAL ")
+identical(rankhospital("MN", "heart failure", 10), "OWATONNA HOSPITAL ")
+identical(rankhospital("MO", "heart failure", 10), "ST LOUIS-JOHN COCHRAN VA MEDICAL CENTER ")
+identical(rankhospital("MS", "heart failure", 10), "CALHOUN HEALTH SERVICES ")
+identical(rankhospital("MT", "heart failure", 10), "SIDNEY HEALTH CENTER ")
+identical(rankhospital("NC", "heart failure", 10), "WAKEMED, CARY HOSPITAL ")
+identical(rankhospital("ND", "heart failure", 10), "SAKAKAWEA MEDICAL CENTER - CAH ")
+identical(rankhospital("NE", "heart failure", 10), "BOX BUTTE GENERAL HOSPITAL ")
+identical(rankhospital("NH", "heart failure", 10), "PORTSMOUTH REGIONAL HOSPITAL ")
+identical(rankhospital("NJ", "heart failure", 10), "OUR LADY OF LOURDES MEDICAL CENTER ")
+identical(rankhospital("NM", "heart failure", 10), "HOLY CROSS HOSPITAL A DIV OF TAOS HEALTH SYSTEMS ")
+identical(rankhospital("NV", "heart failure", 10), "SUMMERLIN HOSPITAL MEDICAL CENTER ")
+identical(rankhospital("NY", "heart failure", 10), "MOUNT SINAI HOSPITAL ")
+identical(rankhospital("OH", "heart failure", 10), "TRUMBULL MEMORIAL HOSPITAL ")
+identical(rankhospital("OK", "heart failure", 10), "SAINT FRANCIS HOSPITAL SOUTH ")
+identical(rankhospital("OR", "heart failure", 10), "LEGACY GOOD SAMARITAN MEDICAL CENTER ")
+identical(rankhospital("PA", "heart failure", 10), "HAHNEMANN UNIVERSITY HOSPITAL ")
+identical(rankhospital("PR", "heart failure", 10), "HOSPITAL HERMANOS MELENDEZ INC ")
+identical(rankhospital("RI", "heart failure", 10), "NEWPORT HOSPITAL ")
+identical(rankhospital("SC", "heart failure", 10), "CAROLINAS HOSPITAL SYSTEM ")
+identical(rankhospital("SD", "heart failure", 10), "AVERA MCKENNAN HOSPITAL & UNIVERSITY HEALTH CENTER ")
+identical(rankhospital("TN", "heart failure", 10), "CROCKETT HOSPITAL ")
+identical(rankhospital("TX", "heart failure", 10), "VALLEY REGIONAL MEDICAL CENTER ")
+identical(rankhospital("UT", "heart failure", 10), "UINTAH BASIN MEDICAL CENTER ")
+identical(rankhospital("VA", "heart failure", 10), "CARILION GILES COMMUNITY HOSPITAL ")
+is.na(rankhospital("VI", "heart failure", 10))
+identical(rankhospital("VT", "heart failure", 10), "CENTRAL VERMONT MEDICAL CENTER ")
+identical(rankhospital("WA", "heart failure", 10), "KITTITAS VALLEY COMMUNITY HOSPITAL ")
+identical(rankhospital("WI", "heart failure", 10), "WHEATON FRANCISCAN HEALTHCARE- ST FRANCIS ")
+identical(rankhospital("WV", "heart failure", 10), "MARTINSBURG VA MEDICAL CENTER ")
+identical(rankhospital("WY", "heart failure", 10), "CAMPBELL COUNTY MEMORIAL HOSPITAL ")
+
 
