@@ -47,6 +47,28 @@ rankall <- function(outcome, num = "best") {
         {
             filtered <- ordered[ordered$state==state,]
             
+            if (nrow(filtered) > 1)
+            {
+                for (i in 1:(nrow(filtered)-1))
+                {
+                    for (j in (i+1):nrow(filtered))
+                    {
+                        if (filtered$value[i] == filtered$value[j])
+                        {
+                            ni <- as.character(filtered$hospital[i])
+                            nj <- as.character(filtered$hospital[j])
+                            
+                            if (ni > nj)
+                            {
+                                x <- filtered[i,]
+                                filtered[i,] <- filtered[j,]
+                                filtered[j,] <- x
+                            }
+                        }
+                    }
+                }
+            }
+            
             if (nrow(filtered) == 0)
             {
                 name <- NA
